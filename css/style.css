@@ -258,9 +258,9 @@ td, th {
             line-height: 2;
         }
 
-            .itens:first-child {
-                font-weight: bold;
-            }
+        .itens:before {
+            content: "✨"
+        }
 
             .itens:nth-child(2n){
                 font-weight: bold;
